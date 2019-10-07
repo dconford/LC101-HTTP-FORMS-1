@@ -15,16 +15,16 @@
     <h2>LC101 HTTP Forms Practice</h3>
   </section>
   <section>
-    <form id="submissionForm">
+    <form id="submissionForm" action="https://rocky-fortress-42375.herokuapp.com/student" method="POST">
       <fieldset>
         <label for="first_name">First Name</label>
-        <input id="first_name">
+        <input id="first_name" name="first_name"> 
         <label for="last_name">Last Name</label>
-        <input id="last_name">
+        <input id="last_name" name="last_name">
         <label for="favorite_animal">Favorite Animal</label>
-        <input id="favorite_animal">
+        <input id="favorite_animal" name="favorite_animal">
         <label for="favorite_food">Favorite Food</label>
-        <input id="favorite_food">
+        <input id="favorite_food" name="favorite_food">
       </fieldset>
       <button>Submit Here</button>
     </form>
